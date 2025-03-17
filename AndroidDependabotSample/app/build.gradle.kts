@@ -55,7 +55,7 @@ dependencies {
 
     // NOTE: Testing dependencies declared directly in build.gradle.kts instead of the version catalog.
     implementation("io.coil-kt.coil3:coil-compose:3.0.4")
-    implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.4")
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.1.0")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
